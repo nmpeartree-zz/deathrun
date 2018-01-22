@@ -1,0 +1,218 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Death Run - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\NELSON\LOCALS~1\Temp\RSP9B.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Death Run.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\MS Visual Studio\MyProjects\Death Run\Death Run.cpp"
+"D:\MS Visual Studio\MyProjects\Death Run\t3dlib1.cpp"
+"D:\MS Visual Studio\MyProjects\Death Run\t3dlib2.cpp"
+"D:\MS Visual Studio\MyProjects\Death Run\t3dlib3.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\NELSON\LOCALS~1\Temp\RSP9B.tmp" 
+Creating temporary file "C:\DOCUME~1\NELSON\LOCALS~1\Temp\RSP9C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ddraw.lib dinput8.lib winmm.lib dsound.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Death Run.pdb" /debug /machine:I386 /out:"Debug/Death Run.exe" /pdbtype:sept 
+".\Debug\Death Run.obj"
+".\Debug\t3dlib1.obj"
+".\Debug\t3dlib2.obj"
+".\Debug\t3dlib3.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\NELSON\LOCALS~1\Temp\RSP9C.tmp"
+<h3>Output Window</h3>
+Compiling...
+Death Run.cpp
+d:\directx\dxf\dxsdk\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+d:\ms visual studio\myprojects\death run\death run.cpp(55) : warning C4005: 'SCREEN_BPP' : macro redefinition
+        d:\ms visual studio\myprojects\death run\t3dlib1.h(14) : see previous definition of 'SCREEN_BPP'
+d:\ms visual studio\myprojects\death run\death run.cpp(352) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+d:\ms visual studio\myprojects\death run\death run.cpp(463) : warning C4101: 'buffer' : unreferenced local variable
+d:\ms visual studio\myprojects\death run\death run.cpp(516) : warning C4101: 'hdc' : unreferenced local variable
+d:\ms visual studio\myprojects\death run\death run.cpp(604) : warning C4101: 'filename' : unreferenced local variable
+d:\ms visual studio\myprojects\death run\death run.cpp(906) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\death run.cpp(907) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\death run.cpp(727) : warning C4101: 'width' : unreferenced local variable
+d:\ms visual studio\myprojects\death run\death run.cpp(727) : warning C4101: 'type' : unreferenced local variable
+d:\ms visual studio\myprojects\death run\death run.cpp(728) : warning C4101: 'x0' : unreferenced local variable
+d:\ms visual studio\myprojects\death run\death run.cpp(728) : warning C4101: 'x1' : unreferenced local variable
+d:\ms visual studio\myprojects\death run\death run.cpp(728) : warning C4101: 'y0' : unreferenced local variable
+d:\ms visual studio\myprojects\death run\death run.cpp(729) : warning C4101: 'index' : unreferenced local variable
+d:\ms visual studio\myprojects\death run\death run.cpp(728) : warning C4101: 'y1' : unreferenced local variable
+d:\ms visual studio\myprojects\death run\death run.cpp(727) : warning C4101: 'height' : unreferenced local variable
+d:\ms visual studio\myprojects\death run\death run.cpp(1339) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\death run.cpp(1340) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\death run.cpp(2519) : warning C4305: '+=' : truncation from 'const double' to 'float'
+d:\ms visual studio\myprojects\death run\death run.cpp(2529) : warning C4305: '+=' : truncation from 'const double' to 'float'
+d:\ms visual studio\myprojects\death run\death run.cpp(2539) : warning C4305: '+=' : truncation from 'const double' to 'float'
+d:\ms visual studio\myprojects\death run\death run.cpp(2555) : warning C4305: '+=' : truncation from 'const double' to 'float'
+d:\ms visual studio\myprojects\death run\death run.cpp(2575) : warning C4305: '+=' : truncation from 'const double' to 'float'
+d:\ms visual studio\myprojects\death run\death run.cpp(2729) : warning C4305: '+=' : truncation from 'const double' to 'float'
+d:\ms visual studio\myprojects\death run\death run.cpp(2760) : warning C4305: '+=' : truncation from 'const double' to 'float'
+d:\ms visual studio\myprojects\death run\death run.cpp(2849) : warning C4390: ';' : empty controlled statement found; is this the intent?
+d:\ms visual studio\myprojects\death run\death run.cpp(2859) : warning C4390: ';' : empty controlled statement found; is this the intent?
+d:\ms visual studio\myprojects\death run\death run.cpp(2870) : warning C4390: ';' : empty controlled statement found; is this the intent?
+d:\ms visual studio\myprojects\death run\death run.cpp(2880) : warning C4390: ';' : empty controlled statement found; is this the intent?
+d:\ms visual studio\myprojects\death run\death run.cpp(2891) : warning C4390: ';' : empty controlled statement found; is this the intent?
+d:\ms visual studio\myprojects\death run\death run.cpp(2902) : warning C4390: ';' : empty controlled statement found; is this the intent?
+d:\ms visual studio\myprojects\death run\death run.cpp(2913) : warning C4390: ';' : empty controlled statement found; is this the intent?
+d:\ms visual studio\myprojects\death run\death run.cpp(3150) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\death run.cpp(3151) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\death run.cpp(3507) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\death run.cpp(3508) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\death run.cpp(3509) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\death run.cpp(3510) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\death run.cpp(3549) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\death run.cpp(3550) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\death run.cpp(3568) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\death run.cpp(3701) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\death run.cpp(3702) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\death run.cpp(3708) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\death run.cpp(3709) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\death run.cpp(3766) : warning C4390: ';' : empty controlled statement found; is this the intent?
+d:\ms visual studio\myprojects\death run\death run.cpp(3807) : warning C4390: ';' : empty controlled statement found; is this the intent?
+d:\ms visual studio\myprojects\death run\death run.cpp(3821) : warning C4390: ';' : empty controlled statement found; is this the intent?
+d:\ms visual studio\myprojects\death run\death run.cpp(3833) : warning C4390: ';' : empty controlled statement found; is this the intent?
+d:\ms visual studio\myprojects\death run\death run.cpp(3845) : warning C4390: ';' : empty controlled statement found; is this the intent?
+d:\ms visual studio\myprojects\death run\death run.cpp(3856) : warning C4390: ';' : empty controlled statement found; is this the intent?
+d:\ms visual studio\myprojects\death run\death run.cpp(3868) : warning C4390: ';' : empty controlled statement found; is this the intent?
+d:\ms visual studio\myprojects\death run\death run.cpp(3879) : warning C4390: ';' : empty controlled statement found; is this the intent?
+d:\ms visual studio\myprojects\death run\death run.cpp(3891) : warning C4390: ';' : empty controlled statement found; is this the intent?
+t3dlib1.cpp
+d:\ms visual studio\myprojects\death run\death run.cpp(1369) : warning C4715: 'Game_Splash' : not all control paths return a value
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(195) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(196) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(349) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(350) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(351) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(352) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(388) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(389) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(390) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(391) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(427) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(428) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(429) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(430) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(468) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(469) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(470) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(471) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(506) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(507) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(508) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(509) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(545) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(546) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(547) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(548) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(823) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(826) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(830) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(833) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(897) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(898) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(954) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(955) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(1018) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(1019) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(1021) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(1022) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(1773) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(1778) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(1784) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(1790) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(1798) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(1805) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(1814) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(1821) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(1830) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(1836) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(1845) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(1851) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(1894) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(1901) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(1910) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(1917) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(1926) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(1932) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(1941) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(1947) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(3577) : warning C4101: 'work_color' : unreferenced local variable
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(4150) : warning C4018: '<' : signed/unsigned mismatch
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(4200) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(4318) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(4443) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(4567) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5187) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5188) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5189) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5268) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5277) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5285) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5286) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5287) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5288) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5294) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5295) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5301) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5302) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5638) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5639) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5651) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5652) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5689) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5698) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5706) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5707) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5708) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5709) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5715) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5716) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5722) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(5723) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6059) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6060) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6072) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6073) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6097) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6098) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6221) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6221) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6221) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6221) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6232) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6232) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6232) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6232) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6260) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6260) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6260) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6260) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6271) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6271) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6271) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6271) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6303) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6303) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6306) : warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6306) : warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6313) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+d:\ms visual studio\myprojects\death run\t3dlib1.cpp(6314) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+t3dlib2.cpp
+d:\directx\dxf\dxsdk\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+t3dlib3.cpp
+d:\ms visual studio\myprojects\death run\t3dlib3.cpp(861) : warning C4101: 'index' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+Death Run.exe - 0 error(s), 174 warning(s)
+</pre>
+</body>
+</html>
